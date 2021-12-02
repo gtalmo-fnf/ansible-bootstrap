@@ -1,1 +1,9 @@
-New-Item -Path C:\ -Name "testfile1.txt" -ItemType "file" -Value "This is a text string."
+<#
+    .SYNOPSIS
+        Cribbed from M$
+#>
+
+
+# Folders
+New-Item -ItemType Directory c:\temp
+New-Item -ItemType Directory c:\music
